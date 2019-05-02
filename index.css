@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 67.5%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2 {
+    margin: 2rem 0;
+    font-weight: 900;
+    font-size: 2.6rem;
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+section,
+footer {
+    padding: 4rem;
+}
+
+/* SECTIONS */
+
+/* HEADER */
+
+.header {
+    height: 27rem;
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    background: #fff;
+    color: #000;
+    padding: 1rem;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.company_name {
+    position: absolute;
+    top: 20;
+    left: 40;
+}
+
+.b {
+    color: #ffe964;
+}
+
+.i {
+    color: #ff523d;
+}
+
+.k {
+    color: #223c88;
+}
+
+/* ABOUT US & MISSION */
+
+.mission {
+    background: #ffe964;
+}
+
+.mission h2 {
+    text-align: center;
+}
+
+.mission p {
+    text-align: center;
+}
+
+.aboutus {
+    background: #fff;
+}
+
+/* OUR TEAM */
+
+.ourteam {
+    background: #ff523d;
+    color: #fff;
+}
+
+.person {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.person img {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+.name {
+    font-weight: 700;
+}
+
+small {
+    font-size: 0.9rem;
+}
+
+.name,
+small {
+    display: block;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background: #223c88;
+    color: #fff;
+}
+
+.address {
+    margin: 1.5rem 0;
+}
